@@ -1,0 +1,17 @@
+
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Concepts\IMarkersReader.cs-d8a9ab2b7724d842808a35a9048f5bb0
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Concepts\IMarkersTextWriter.cs-5a48f22231134e656ad1afb69ed56e0e
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Concepts\IMarkersXmlWriter.cs-90d17cae69124a4f149d3c131051cfec
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Marker.cs-0b134250d4e7ec88b97c5057f6d46745
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\MarkersExtensions.cs-da7d6b271089e7bb04349d34f95f47a9
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\MarkersReader.cs-3be8d3572b38381b92b299c3bd844dce
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\MarkersTextWriter.cs-7cdca8f5f95f793d1ffe6103e3cdddc5
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\MarkersTextWriterSettings.cs-49b33b95299d4b718a0f1eea179325df
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Xml\AvClass.cs-a2efd83e1826095c0ee46d39f70ab983
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Xml\AvItem.cs-f6c782bdcd1b2ee5bc17060a13209a7d
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Xml\AvProp.cs-87864f458b8fe6ebdf10290c49cff976
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Xml\List.cs-a85a9a2e511633e0685318a973927717
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Xml\ListElem.cs-8342fb19471bcb672a7937273c86df87
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Implementations\Xml\StreamItems.cs-0c006db3b8a4a0533cc8796ee3d93e59
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Maptz.Editing.Avid.Markers.csproj-50f8467fac350e9327cfd0d525affbc9
+
