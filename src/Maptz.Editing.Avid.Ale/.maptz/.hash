@@ -5,7 +5,7 @@ X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Concepts\AleFile\IGlobalHeadings.cs-38b1bbd0ee4175de1fecf3ea2bffbb2c
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Concepts\Merging\IAleMergerService.cs-4f9f6f488366c3a676211d34927b9919
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Concepts\Merging\MergeMode.cs-299afc54df7bf48b17643eec73399931
-X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\AleFile\AleFile.cs-d5d03eefba8001cd0fe93c9d7c684d19
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\AleFile\AleFile.cs-747f76fee42490af967fddf3c779f5ea
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\AleFile\AleFileHelpers.cs-9f05d664b16d70bab701b61be2cb8a9f
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\Clip\Clip.cs-1a5be65d5b7aca99ce594a008dcfd0ff
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\Clip\ClipHelpers.cs-f51a3e32337d6f436a5900c5720498f1
@@ -27,5 +27,5 @@ X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\GlobalHeadings\GlobalHeadingsConstants.cs-bb5e9d41f9941d7ba80457d7c9f318f5
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\GlobalHeadings\GlobalHeadingsHelpers.cs-61cc759517ff41f91945a91cf32ff1be
 X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Implementations\Merging\AleMergerService.cs-aea769ee24e11bf122e7cdb0dceeb9e7
-X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Maptz.Editing.Avid.Ale.csproj-823549f09f3e5316cdbf3b036b56eaa5
+X:\+++DEV\MaptzGitHub\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Ale\Maptz.Editing.Avid.Ale.csproj-4ead866ee46591fa42a2245a51b304cf
 

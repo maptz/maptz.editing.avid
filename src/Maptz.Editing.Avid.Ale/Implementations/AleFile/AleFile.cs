@@ -48,6 +48,8 @@ namespace Maptz.Editing.Avid.Ale
         }
         /* #endregion Public Properties */
 
+
+
         /// <summary>
         /// Copy the AleFile instance.
         /// </summary>

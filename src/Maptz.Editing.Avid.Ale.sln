@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.Ale", "Maptz.Editing.Avid.Ale\Maptz.Editing.Avid.Ale.csproj", "{3DC94A73-4F97-48C4-AC75-3D39BC67AA37}"
 EndProject
@@ -10,6 +10,14 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.Markers", "Maptz.Editing.Avid.Markers\Maptz.Editing.Avid.Markers.csproj", "{3CAB7D2A-4967-49C6-8732-499924E77F3D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.Markers.Tests", "Maptz.Editing.Avid.Markers.Tests\Maptz.Editing.Avid.Markers.Tests.csproj", "{91C7FE61-6D5F-4AB0-99EC-EDB47697103F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.DS", "Maptz.Editing.Avid.DS\Maptz.Editing.Avid.DS.csproj", "{97E044A3-34EF-4991-A744-07030E007033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.DS.Tests", "Maptz.Editing.Avid.DS.Tests\Maptz.Editing.Avid.DS.Tests.csproj", "{8326F122-82DC-4761-9C1F-454C7C55DCA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.DS.Converters", "Maptz.Editing.Avid.DS.Converters\Maptz.Editing.Avid.DS.Converters.csproj", "{9A93DCAD-D7E9-453F-81FF-A811E919FA63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.DS.Converters.Tests", "Maptz.Editing.Avid.DS.Converters.Tests\Maptz.Editing.Avid.DS.Converters.Tests.csproj", "{3C802268-010F-4B95-A84D-0561EFD9649A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{91C7FE61-6D5F-4AB0-99EC-EDB47697103F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C7FE61-6D5F-4AB0-99EC-EDB47697103F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C7FE61-6D5F-4AB0-99EC-EDB47697103F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E044A3-34EF-4991-A744-07030E007033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E044A3-34EF-4991-A744-07030E007033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E044A3-34EF-4991-A744-07030E007033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E044A3-34EF-4991-A744-07030E007033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8326F122-82DC-4761-9C1F-454C7C55DCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8326F122-82DC-4761-9C1F-454C7C55DCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8326F122-82DC-4761-9C1F-454C7C55DCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8326F122-82DC-4761-9C1F-454C7C55DCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A93DCAD-D7E9-453F-81FF-A811E919FA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A93DCAD-D7E9-453F-81FF-A811E919FA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A93DCAD-D7E9-453F-81FF-A811E919FA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A93DCAD-D7E9-453F-81FF-A811E919FA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C802268-010F-4B95-A84D-0561EFD9649A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C802268-010F-4B95-A84D-0561EFD9649A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C802268-010F-4B95-A84D-0561EFD9649A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C802268-010F-4B95-A84D-0561EFD9649A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
