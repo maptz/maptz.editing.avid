@@ -32,8 +32,8 @@ namespace Maptz.Editing.Avid.Markers
                         //NOTE there is a maximum length when importing Markers into Avid.
                         if (resolvedContent.Length > 256)
                         {
-                            if (this.Settings.ThrowWhenContentTooLong)
-                                throw new Exception($"Marker content is too long for marker at timecode {marker.Timecode}");
+                            //if (this.Settings.ThrowWhenContentTooLong)
+                            //    throw new Exception($"Marker content is too long for marker at timecode {marker.Timecode}");
                         }
                         var items = new string[]
                         {
