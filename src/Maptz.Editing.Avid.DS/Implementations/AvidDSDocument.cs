@@ -18,6 +18,8 @@ namespace Maptz.Editing.Avid.DS
             foreach(var component in Components)
             {
                 sb.Append(component);
+                sb.AppendLine();
+                sb.AppendLine();
             }
             sb.Append(tail);
             var str = sb.ToString();

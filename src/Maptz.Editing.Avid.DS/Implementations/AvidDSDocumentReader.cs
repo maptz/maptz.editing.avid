@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text.RegularExpressions;
 namespace Maptz.Editing.Avid.DS
 {
@@ -47,7 +48,7 @@ namespace Maptz.Editing.Avid.DS
                 //So we are parsing. 
             }
 
-            foreach(AvidDSComponent component in components)
+            foreach (AvidDSComponent component in components)
             {
                 component.Content = component.Content.Substring(0, component.Content.Length - 2); //Remove hte \r\n
             }
