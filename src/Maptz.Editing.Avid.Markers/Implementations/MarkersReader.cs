@@ -14,27 +14,37 @@ namespace Maptz.Editing.Avid.Markers
         /* #region Interface: 'Maptz.Editing.Avid.Markers.IMarkersReader' Methods */
         public async Task<IEnumerable<Marker>> ReadFromTextFileAsync(string filePath)
         {
-            var markers = new List<Marker>();
-            string str;
-            using (var fs = new FileInfo(filePath).OpenText())
+            try
             {
-                str = await fs.ReadToEndAsync();
-            }
+                var markers = new List<Marker>();
+                string str;
+                using (var fs = new FileInfo(filePath).OpenText())
+                {
+                    str = fs.ReadToEnd();
+                }
 
-            foreach (var line in str.Split('\n'))
+                foreach (var line in str.Split('\n'))
+                {
+                    var parts = line.Split('\t');
+                    if (parts.Length < 2)
+                        continue;
+                    var marker = new Marker();
+                    marker.Timecode = parts[1];
+                    marker.Content = parts[4];
+                    marker.Track = parts[2];
+                    marker.Color = parts[3];
+                    markers.Add(marker);
+                }
+                await Task.CompletedTask;
+
+                return markers;
+            }
+            catch(Exception ex)
             {
-                var parts = line.Split('\t');
-                if (parts.Length < 2)
-                    continue;
-                var marker = new Marker();
-                marker.Timecode = parts[1];
-                marker.Content = parts[4];
-                marker.Track = parts[2];
-                marker.Color = parts[3];
-                markers.Add(marker);
+                Console.WriteLine("Error reading text file" + ex.ToString());
+                return new Marker[0];
             }
-
-            return markers;
+            
         }
 
         public async Task<IEnumerable<Marker>> ReadFromXmlFileAsync(string filePath)
