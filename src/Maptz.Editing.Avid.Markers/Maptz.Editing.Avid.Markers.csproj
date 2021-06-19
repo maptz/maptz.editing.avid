@@ -5,6 +5,6 @@
     <Version>0.0.13</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="microsoft.extensions.options" Version="2.2.0" />
+    <PackageReference Include="microsoft.extensions.options" Version="5.0.0" />
   </ItemGroup>
 </Project>
